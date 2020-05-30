@@ -1,0 +1,377 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  font-weight: normal;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+nav, ul, li {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+a:visited {
+  color: inherti;
+}
+
+/* change colours to suit your needs */
+ins {
+  background-color: #ff9;
+  color: #000;
+  text-decoration: none;
+}
+
+/* change colours to suit your needs */
+mark {
+  background-color: #ff9;
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #cccccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+input, select {
+  vertical-align: middle;
+}
+html {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.headline {
+  font-size: 36px;
+  text-align: center;
+  margin-top: 100px;
+  height: 58.5px;
+}
+
+.headline:after {
+  display: block;
+  content: "";
+  border-bottom: 1px solid #ffffff;
+  width: 78px;
+  margin: auto;
+  margin-top: 22.5px;
+}
+
+header {
+  position: relative;
+  height: 800px;
+}
+
+header .wrap {
+  width: 86px;
+  position: relative;
+  top: 140px;
+  left: 200px;
+}
+
+header .title {
+  height: 203px;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  margin-bottom: 160px;
+}
+
+header .sub-title {
+  height: 180px;
+  font-size: 40px;
+  margin-right: 28.5px;
+  margin-top: 22.5px;
+  letter-spacing: 20px;
+}
+
+header .text {
+  font-size: 16px;
+}
+
+header .nav {
+  font-size: 18px;
+}
+
+header .nav ul li {
+  padding-bottom: 40px;
+}
+
+header .backcolor {
+  width: 60%;
+  height: 585px;
+  background-color: #800000;
+  margin-left: 40;
+  position: absolute;
+  top: 0px;
+  right: 0;
+}
+
+header .img {
+  background-image: url(../img/tonkatsu.jpg);
+  width: 955px;
+  height: 645px;
+  position: absolute;
+  right: 140px;
+  top: 85px;
+  line-height: 16px;
+  background-size: cover;
+}
+
+.reserv {
+  width: 80px;
+  height: 250px;
+  border: 1px solid #ffffff;
+  background-color: #800000;
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro {
+  height: 945px;
+  position: relative;
+}
+
+.intro .slide {
+  background-color: #ffffff;
+  height: 350px;
+  width: 68%;
+  margin: auto;
+  position: absolute;
+  left: 16%;
+  top: 150px;
+  z-index: 9;
+}
+
+.intro .slide .text {
+  color: #000000;
+  font-size: 20px;
+  text-align: center;
+  line-height: 350px;
+}
+
+.intro .backcolor {
+  background-color: #800000;
+  height: 462px;
+  width: 85%;
+  margin: auto;
+  position: relative;
+  top: 280px;
+}
+
+.intro .backcolor .text1 {
+  width: 831px;
+  height: 160px;
+  font-size: 20px;
+  text-align: center;
+  line-height: 280%;
+  position: absolute;
+  top: 230px;
+  left: 20%;
+}
+
+.intro .backcolor .text1 span {
+  font-size: 25px;
+}
+
+.intro2 {
+  height: 1160px;
+}
+
+.intro2 .text {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 18px;
+}
+
+.img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 1095px;
+  position: relative;
+  top: 60px;
+  height: 780px;
+  margin: 0 auto;
+}
+
+.img .img1 {
+  background-image: url(../img/menu1@2x.png);
+  width: 55%;
+  height: 50%;
+  background-size: cover;
+}
+
+.img .img2 {
+  background-image: url(../img/menu4@2x.png);
+  width: 43%;
+  height: 50%;
+  background-size: cover;
+  margin-left: 15px;
+}
+
+.img .img3 {
+  margin-top: 20px;
+  background-image: url(../img/menu2@2x.png);
+  width: 65%;
+  height: 50%;
+  background-size: cover;
+}
+
+.img .img4 {
+  margin-left: 15px;
+  margin-top: 20px;
+  background-image: url(../img/menu3@2x.png);
+  width: 33%;
+  height: 50%;
+  background-size: cover;
+}
+
+.access {
+  height: 690px;
+  position: relative;
+}
+
+.access .backcolor {
+  position: relative;
+  top: 170px;
+  background-color: #800000;
+  height: 310px;
+  width: 76%;
+}
+
+.access .backcolor .text {
+  position: absolute;
+  left: 55px;
+  bottom: 100px;
+  line-height: 55px;
+  text-align: center;
+}
+
+.access .map {
+  width: 68%;
+  height: 314px;
+  position: absolute;
+  bottom: 250px;
+  right: 0;
+}
+
+footer {
+  height: 270px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: auto;
+}
+
+footer small {
+  font-size: 18px;
+  text-align: center;
+}
+
+footer .border {
+  border-top: 1px solid #ffffff;
+  width: 1095px;
+  margin-bottom: 68.5px;
+}
+/*# sourceMappingURL=main.css.map */

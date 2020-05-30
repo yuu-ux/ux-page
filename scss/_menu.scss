@@ -1,0 +1,70 @@
+.menu {
+    height: 943px;
+    position: relative;
+    @include sp {
+        height: 1580px;
+    }
+    .border {
+        display: flex;
+        align-items: center;
+        margin-bottom: 11px;
+    }
+    &-wrap {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        height: 504px;
+        margin: auto;
+           @include sp {
+            flex-wrap: wrap;   
+        }
+    }
+        &-item {
+            width: 338px;
+            height: 505px;
+        }
+            &-img {
+                height: 274px;
+                width: 274;
+                background-size: cover;
+                margin-bottom: 37px;
+            }
+            .img1 {
+                    background-image: url(../img/menu1.png);
+                    background-size: cover;
+                    height: 274px;
+                    width: 274;
+                }
+                .img2 {
+                    background-image: url(../img/menu2.png);
+                    height: 274px;
+                    width: 274;
+                    background-size: cover;
+                }
+                .img3 {
+                    background-image: url(../img/menu3.png);
+                    height: 274px;
+                    width: 274;
+                    background-size: cover;
+                }
+    &-text {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    &-text1 {
+        margin-bottom: 35px;
+    }
+}
+.money {
+text-align: right;
+}
+.inner {
+    width: 100%;
+    position: absolute;
+    top: 261px;
+    left: 107px;
+    @include sp {
+        position: static;
+    }
+}
+

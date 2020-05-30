@@ -1,0 +1,93 @@
+.consept {
+    width: 100%;
+    position: relative;
+    height: 1000px;
+    &-top {
+        width: 100%;
+        height: 50%;
+        background-color: #A193861F;
+        .border {
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+            position: absolute;
+            left: 100px;
+            top: 256px;
+        }
+    }
+    &-bottom {
+        width: 100%;
+        height: 50%;
+        background-color: #A1938689;
+        @include sp {
+            position: relative;
+        }
+        .text {
+            width: 63%;
+            display: flex;
+            justify-content: space-around;
+            position: absolute;
+            left: 280px;
+            bottom: 30px;
+            @include sp {
+                flex-wrap: wrap;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+            .text1 {
+                display: flex;
+                align-items: center;
+                width: 445px;
+                font-size: 38px;
+                color: #ffffff;
+                font-family: ヒラギノ明朝 Pro;
+                text-align: center;
+
+            }
+            .text2 {
+                width: 390px;
+                color: #ffffff;
+                font-size: 16px;
+
+            }
+        }
+    }
+    
+}
+.consept-img {
+    display: flex;
+    width: 80%;
+    height: 54%;
+    position: absolute;
+    left: 80px;
+    top: 300px;
+    &-right {
+        width: 40%;
+        height: 540px;
+        background-image: url(../img/consept2.png);
+        background-size: 100% 100%;
+        order: 2;
+        margin-left: 11px;
+        @include sp {
+            width: 50%;
+            height: 50%;
+        }
+    }
+    &-left {
+        width: 60%;
+        height: 540px;
+        background-image: url(../img/consept1.png);
+        background-size: 100% 100%;
+        order: 1;
+         @include sp {
+            width: 50%;
+            height: 50%;
+        }
+    }
+
+}
+    
+            
+            
+            

@@ -1,0 +1,25 @@
+.access {
+    height: 690px;
+    position: relative;
+    .backcolor {
+        position: relative;
+        top: 170px;
+        background-color: #800000;
+        height: 310px;
+        width: 76%;
+        .text {
+            position: absolute;
+            left: 55px;
+            bottom: 100px;
+            line-height: 55px;
+            text-align: center;
+        }
+    }
+    .map {
+        width: 68%;
+        height: 314px;
+        position: absolute;
+        bottom: 250px;
+        right: 0;
+    }
+}

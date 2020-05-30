@@ -1,0 +1,63 @@
+header {
+    position: relative;
+    height: 800px;
+    .wrap {
+        width: 86px;
+        position: relative;
+        top: 140px;
+        left: 200px;
+    }
+    .title {
+        height: 203px;
+        writing-mode: vertical-lr; 
+        margin-bottom: 160px;
+    }
+    .sub-title {
+        height: 180px;
+        font-size: 40px;
+        margin-right: 28.5px;
+        margin-top: 22.5px;
+        letter-spacing: 20px;
+    }
+    .text {
+        font-size: 16px;
+    }
+    .nav {
+        font-size: 18px;
+        ul {
+            li {
+                padding-bottom: 40px;
+            }
+        }
+    }
+        .backcolor {
+            width: 60%;
+            height: 585px;
+            background-color: #800000;
+            margin-left: 40;
+            position: absolute;
+            top: 0px;
+            right: 0;
+        }
+        .img {
+            background-image: url(../img/tonkatsu.jpg);
+            width: 955px;
+            height: 645px;
+            position: absolute;
+            right: 140px;
+            top: 85px;
+            line-height: 16px;
+            background-size: cover;
+    }
+}
+
+.reserv {
+    width: 80px;
+    height: 250px;
+    border: 1px solid #ffffff;
+    background-color: #800000;
+    writing-mode: vertical-rl;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

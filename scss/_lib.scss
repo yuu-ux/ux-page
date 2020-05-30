@@ -1,0 +1,19 @@
+html {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.headline {
+        font-size: 36px;
+        text-align: center;
+        margin-top: 100px;
+        height: 58.5px;
+        &:after {
+            display: block;
+            content: "";
+            border-bottom: 1px solid #ffffff;
+            width: 78px;
+            margin: auto;
+            margin-top: 22.5px;
+        }
+    }

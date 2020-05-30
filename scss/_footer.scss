@@ -1,0 +1,17 @@
+footer {
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    small {
+        font-size: 18px;
+        text-align: center;       
+    }
+    .border {
+    border-top: 1px solid #ffffff;
+    width: 1095px;
+    margin-bottom: 68.5px;
+    }
+}
